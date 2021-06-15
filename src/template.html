@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Portfolio Website</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Swarnadeep Das</span>
+          <br />
+          I'm the Web Developer you want.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Check Out</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I would describe myself as beign outgoing, enthusiastic, passionate about things that I have interest in, focused, and always trying to learn. I try to look at difficult situations as chances to grow rather than something to be afraid of. I try my best to make decisions in life that reflect the qualities of independence and courage. I would also describe myself as a team player. 
+              </p>
+              <p class="about-wrapper__info-text">
+                My short-term goal is to get placed as a Web-Developer(Full Stack).
+
+                My long-term goal is to get a higher position as the company opens where I can put all my capabilities for the advancement of the organization.
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Background Generator</h3>
+                <div>
+                  <p class="mb-4">
+                    Its a front-end web page using HTML5, CSS3 and Javascript which changes the background color to two shades of that particular webpage.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://vimeo.com/560797283">
+                  Video Demo
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/swarnadeep721/Background-Generator">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Back_Gen.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Robo Friends</h3>
+                <div>
+                  <p class="mb-4">
+                    A Front-End React application that has a search functionality among name cards, which searches and gives you the desired card
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://vimeo.com/560798779">
+                  Video Demo
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/swarnadeep721/robo_friends">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Robo_Friends.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Smart_Brain</h3>
+                <div>
+                  <p class="mb-4">
+                    A Full Stack project(Front-end + Back-end + Database) which recognises the human face from the image provided by the image address in the Detect bar. This app uses a face detection model API.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://vimeo.com/560800022">
+                  Video Demo
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/swarnadeep721/Smart_Brain-Front-End-">
+                  Source Code(Front-End)
+                </a>   
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/swarnadeep721/Smart_Brain-Back-End-">
+                Source Code(Back-End)
+              </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Smart_Brain.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->        
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Todos_List</h3>
+                <div>
+                  <p class="mb-4">   
+                    A React application that adds your task in a To-Do list which further acts as a reminder of tasks to do. It also comes with a delete button which deletes the task and can be used after the completion of the task.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://vimeo.com/560800792">
+                  Video Demo
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/swarnadeep721/Todos_List">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Todos_List.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->   
+
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->       
+
+    
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Gmail: swarnadeep721@gmail.com 
+           || Phone: 8458095845
+          </p>
+          <a
+            target="#!"
+            class="cta-btn cta-btn--resume"
+            href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://twitter.com/swarnadeep721" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a href="https://codepen.io/swarnadeep-das" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/swarnadeep-das-a9b918202/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/swarnadeep721" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- If you give me some credit, will be huge for me :) -->
+        <p class="footer__text">
+          © 2020 - Template developed by
+          <a href="https://github.com/swarnadeep721/" target="_blank"
+            >Swarnadeep Das</a
+          >
+        </p>
+      
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
